@@ -2,6 +2,7 @@
     (include "soldiers_manpower.inc")
 	(define "ch"
 		{charge %c} {fore (/ %fore %c)} {dont_unfog_by_territory}
+		{group "%g"}
 	)
 
 
@@ -105,7 +106,7 @@
 	{"stormtroopers(ger)"	            {tags "man_power"} {cost 200} {button "01_squad1"} {group "infantry_3"} {icon 111} ("ch" c(120) fore(-540))}
 ;usa	
 	{"recruits_squad(usa)"				{tags "man_power infantry_only"} {cost 5} {button "01_squad1"} {group "infantry"} {icon 100} ("ch" c(60) fore(60))}          ; начало 38
-	{"infantry_squad(usa)"				{tags "man_power infantry_only"} {cost 8} {button "01_squad1"} {group "infantry_1"} {icon 100} ("ch" c(120) fore(120))}      ; начало 38
+	{"infantry_squad(usa)"				{tags "man_power infantry_only"} {cost 8} {button "01_squad1"} {group "infantry_1"} {icon 101} ("ch" c(120) fore(120))}      ; начало 38
 	{"assault_squad(usa)"				{tags "man_power infantry_only"} {cost 13} {button "01_squad1"} {group "infantry_1"} {icon 103} ("ch" c(240) fore(-2463))}   ; начало 42
 	{"marines(usa)"					    {tags "man_power infantry_only"} {cost 13} {button "01_squad1"} {group "infantry_2"} {icon 105} ("ch" c(480) fore(-2222)) 
 									    {content "arena_mp/usa/marine_bar:1 arena_mp/usa/marine:2 arena_mp/usa/marine_radioman:1 arena_mp/usa/marine:1 arena_mp/usa/marine_mgun:1 arena_mp/usa/marine_bar:1 arena_mp/usa/marine:1"}
