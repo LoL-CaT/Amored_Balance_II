@@ -1,4 +1,4 @@
-{id "0xc292b21d|0x11000013e5a8f4e"}
+{id "0xc2bb4882|0x11000013e5a8f4e"}
 {name "Amored Balance II"}
 {default_disabled}
 {activate_implicit}
@@ -8,5 +8,5 @@
 ;{dependency "eefc98d6-c4b0-4a7e-ac3e-8f34c512ec0e"} ; HTML interface
 ;{dependency "4aa2d118-7ef7-4a84-ac5e-9f7592c4856f"} ; PBR resources
 ;{dependency "40e43b15-5df8-4623-9b87-dc4eb366961b"} ; Realism Mode
-{legacy_id "5a566023-1e54-424d-8b49-328683e32621"}
-{hash "0xa8652079"}
+{legacy_id "f6ddf895-ff64-4da8-86d7-f00e4b8869cc"}
+{hash "0xdd785265"}
