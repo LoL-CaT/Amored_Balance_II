@@ -1,0 +1,5 @@
+{bitmap
+	{Animation  Play Loop}
+	{Frame  "install/00.tga" 250}
+	{Frame  "install/01.tga" 250}
+}

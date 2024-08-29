@@ -115,7 +115,7 @@
 									    {content "arena_mp/usa/ranger:2 arena_mp/usa/ranger_mgun:1 arena_mp/usa/ranger_shotgun:2  arena_mp/usa/ranger_mgun:1 arena_mp/usa/ranger:2"}
 	}                                                                                                                                                                ; начало 44
 	{"m2_ally"		                    {tags "man_power"} {cost 50} {button "01_squad1"} {icon 107} ("ch" c(900) fore(900))
-									    {content "m2_ally ( arena_mp/usa/ranger:2 arena_mp/usa/ranger_mgun:1 arena_mp/usa/ranger_shotgun:2  arena_mp/usa/ranger_mgun:1 arena_mp/usa/ranger:2 )"}
+									    {content "m2_ally ( arena_mp/usa/ranger:2 arena_mp/usa/ranger_mgun:1 arena_mp/usa/ranger_shotgun:2  arena_mp/usa/ranger_mgun:1 arena_mp/usa/ranger_mgun:2 )"}
 	}                                                                                                                                                                ; начало 44	
 ;---------------	
 	{"paratroopers(usa)"				{tags "man_power infantry_only"} {cost 70} {button "01_squad1"} {group "paratroopers"} {icon 109} ("ch" c(900) fore(900))

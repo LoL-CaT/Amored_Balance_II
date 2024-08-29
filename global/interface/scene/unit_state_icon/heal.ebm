@@ -1,0 +1,5 @@
+{bitmap
+	{Animation  Play Loop}
+	{Frame  "heal/00.tga" 150 }
+	{Frame  "heal/01.tga" 150 }
+}

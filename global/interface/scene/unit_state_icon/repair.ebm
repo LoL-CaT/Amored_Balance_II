@@ -1,0 +1,5 @@
+{bitmap
+	{Animation  Play Loop}
+	{Frame  "repair/00.tga" 300}
+	{Frame  "repair/01.tga" 300}
+}

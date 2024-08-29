@@ -475,12 +475,16 @@
 	{Entity "pier_03" 0x4040
 		{Position -5298.41 -3513.76 -9.67}
 		{Constrain none}
-		{TexMod "2v"}
+		{TexMod
+			{material "wood" "2v"}
+		}
 	}
 	{Entity "pier_03" 0x4041
 		{Position -5409.63 -3512.73 -9.67}
 		{Constrain none}
-		{TexMod "2v"}
+		{TexMod
+			{material "wood" "2v"}
+		}
 	}
 	{Entity "road_gravel3b" 0x4042
 		{Position -5094.11 -3494.9 23.49}
@@ -1457,13 +1461,17 @@
 		{Position -5283.87 3543.59 -18.67}
 		{xform zl -1.16}
 		{Constrain none}
-		{TexMod "2v"}
+		{TexMod
+			{material "wood" "2v"}
+		}
 	}
 	{Entity "pier_03" 0xc3
 		{Position -5395.04 3546.88 -18.67}
 		{xform zl -1.16}
 		{Constrain none}
-		{TexMod "2v"}
+		{TexMod
+			{material "wood" "2v"}
+		}
 	}
 	{Entity "road_gravel3b" 0xc4
 		{Position -5586.71 3511.11}
@@ -2766,16 +2774,20 @@
 	{Entity "camouflage_vehicle_01a" 0x16f
 		{Position -593.12 1571.19}
 		{xform zl 9.7}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "camouflage_vehicle_01a" 0x171
 		{Position -405.99 1411.63}
 		{xform zl 177.07}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "bf109g" 0x6083
 		{Position -954.31 1689.91}
-		{xform zl 175.93 y 15.02 zw 88.67}
+		{xform zl 175.91 y 15.02 zw 88.41}
 		{TexMod "camo_desert"}
 		{Fogable never}
 		{Player 0}
@@ -2804,16 +2816,22 @@
 	}
 	{Entity "camouflage_vehicle_01a" 0x178
 		{Position -587.47 -1400.44}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "camouflage_vehicle_01a" 0x179
 		{Position -682.77 -1651.17}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "camouflage_vehicle_01a" 0x17a
 		{Position -324.38 -1403.9}
 		{xform zl -179.26}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "bf109g" 0x609e
 		{Position -965.5 -1599.92}
@@ -7325,7 +7343,10 @@
 	{Entity "shelter_001" 0x3051
 		{Position -2485.21 2642.76}
 		{xform zl 89.36}
-		{TexMod "burned"}
+		{TexMod
+			{material "boxwood01" "burned"}
+			{material "boxwood1" "burned"}
+		}
 	}
 	{Entity "shelter_003" 0x3052
 		{Position -2482.21 2680.15}
@@ -7399,12 +7420,16 @@
 	{Entity "camouflage_vehicle_01a" 0x7027
 		{Position -2005.69 2719.19}
 		{xform zl -89.56}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "camouflage_vehicle_01a" 0x7028
 		{Position -2138.75 2715.33}
 		{xform zl -107.37}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "barrels1_g2" 0x7029
 		{Position -2636.15 2655.9}
@@ -7418,7 +7443,9 @@
 	}
 	{Entity "camouflage_vehicle_01_supptruck" 0x702a
 		{Position -2098.19 2077.74}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "fuel_cistern_g2" 0x2800
 		{Position -2873.95 2290.6}
@@ -7426,7 +7453,9 @@
 	}
 	{Entity "fuel_cistern_g2" 0x2801
 		{Position -2555.44 2024.22}
-		{TexMod "green"}
+		{TexMod
+			{material "metal_01" "green"}
+		}
 	}
 	{Entity "mg34_tower" 0x2802
 		{Constrain none}
@@ -7565,7 +7594,9 @@
 	{Entity "camouflage_vehicle_01a" 0x281d
 		{Position -1815.66 1789.88}
 		{xform zl -91.25}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "sand_track_03" 0x281e
 		{Position -1581.95 2316.28}
@@ -7940,7 +7971,9 @@
 	{Entity "camouflage_vehicle_01a" 0x40ee
 		{Position -2139.44 -1591.3}
 		{xform zl 68.78}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "sand_track_03" 0x40ef
 		{Position -2206.99 -2027.03}
@@ -8545,7 +8578,9 @@
 	{Entity "fuel_cistern_g2" 0x4126
 		{Position -2784.85 -2309.91}
 		{xform zl 178.59}
-		{TexMod "blue"}
+		{TexMod
+			{material "metal_01" "blue"}
+		}
 	}
 	{Entity "shelter_001" 0x4127
 		{Position -2059.12 -2444.51}
@@ -8577,27 +8612,37 @@
 		{Position -2041.64 -2597.05}
 		{xform zl -170.19}
 		{Constrain none}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "camouflage_vehicle_01a" 0x412e
 		{Position -2067.12 -2466.4}
 		{xform zl 172}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "camouflage_vehicle_01_supptruck" 0x412f
 		{Position -2676.59 -2627.85}
 		{xform zl -90.85}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "camouflage_vehicle_01_supptruck" 0x2107
 		{Position -1358.92 2230.92}
 		{xform zl -179.54}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "camouflage_vehicle_01_supptruck" 0x60c7
 		{Position -1658.35 -2137.57}
 		{xform zl -90.85}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "sand_track_03" 0x1081
 		{Position -1430.67 -1929.49}
@@ -17863,13 +17908,17 @@
 	{Entity "camouflage_vehicle_01a" 0x56f
 		{Position 2593.97 -1814.34}
 		{xform zl 134.06}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "camouflage_vehicle_01a" 0x570
 		{Position 2677.69 -1706.61}
 		{xform zl 116.25}
 		{Constrain surface}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "shelter_003" 0x572
 		{Position 2267.32 1885.32}
@@ -17897,12 +17946,16 @@
 		{Position 2643.28 2192.04 -4.5}
 		{xform zl 2.24}
 		{Constrain none}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "camouflage_vehicle_01a" 0x578
 		{Position 2258.18 1909.72}
 		{xform zl 136.25}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "sand_track_01" 0x41ab
 		{Position 1719.44 -1719.73}
@@ -22795,7 +22848,7 @@
 	}
 	{Entity "s_stone_04b" 0x2282
 		{Position 2753.94 -1556.27}
-		{xform zl 45.62 y 0.01 zw -154.87 scale 0.893}
+		{xform zl 45.62 zw -154.87 scale 0.893}
 		{Constrain surface}
 		{Color 0xff57503f}
 		{ObstacleAble 0}
@@ -23489,7 +23542,9 @@
 		{Position 1013.4 2463.77 -4.5}
 		{xform zl 179.66}
 		{Constrain none}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "leafbush_01a" 0x707
 		{Position 1014.51 2306.65}
@@ -30192,14 +30247,6 @@
 		{VolumeAble 0}
 		{ObstacleAble 0}
 	}
-	{Entity "s_stone_005" 0x846
-		{Position 6311.24 6059.73 218.01}
-		{xform zl 102.08 y 36.72 zw -162.09 scale 1.99}
-		{TexMod "desert"}
-		{Color 0xffb8b6c5}
-		{VolumeAble 0}
-		{ObstacleAble 0}
-	}
 	{Entity "s_stone_005" 0x847
 		{Position 5396.19 6154.8 50.97}
 		{xform zl 107.23 y 36.95 zw -88.63 scale 1.617}
@@ -30584,7 +30631,9 @@
 		{Position -5568.83 6142.9}
 		{xform zl 54.31 y 1.31 zw 127.83}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -30609,7 +30658,9 @@
 		{Position -5559 6167.79}
 		{xform zl -131.19 y 1.84 zw 1.71 scale 0.883}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -30633,7 +30684,9 @@
 	{Entity "palm_003" 0x45af
 		{Position -5629.45 5352.3}
 		{xform zl -178.16}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -30642,7 +30695,9 @@
 		{Position -5619.62 5532.86}
 		{xform zl 83.42 y 16.48 zw 20.46}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -30719,7 +30774,9 @@
 	{Entity "palm_004" 0x45ba
 		{Position -5624.69 4411.02}
 		{xform zl 164.14 scale 1.213}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -30735,7 +30792,9 @@
 		{Position -5647.3 4095.5}
 		{xform zl 47.97 y 21.74 zw -12.02}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -30872,7 +30931,9 @@
 		{Position -6120.76 -3117.75}
 		{xform zl 71.22 y 8.03 zw -90.5}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -30889,7 +30950,9 @@
 		{Position -6102.48 -3101.23}
 		{xform zl -19.53 y 5.12 zw -140.1}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -30939,7 +31002,9 @@
 	{Entity "palm_002" 0x45d7
 		{Position -5629.66 -3106.42 17.07}
 		{xform zl -77.16 scale 1.127}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -30954,7 +31019,9 @@
 	{Entity "palm_004" 0x45d9
 		{Position -5538.89 -3261.88 15.27}
 		{xform zl 12.75 scale 1.127}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -30990,7 +31057,9 @@
 	{Entity "palm_004" 0x45de
 		{Position -5512.98 -3709.67 12.58}
 		{xform zl 89.65}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -31026,7 +31095,9 @@
 	{Entity "palm_004" 0x45e3
 		{Position -5781.94 -4630.92}
 		{xform zl -79.46 scale 1.177}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -31066,7 +31137,9 @@
 		{Position -5613.21 -4782.97}
 		{xform zl -80.31 y 9.32 zw 23.51 scale 0.903}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -31164,7 +31237,9 @@
 	{Entity "palm_002" 0x45f5
 		{Position -5568.91 -6159.46 31.01}
 		{xform zl 12.67}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -31186,7 +31261,9 @@
 	{Entity "palm_005" 0x45f8
 		{Position -5554.56 -6187.3 30.57}
 		{xform zl 36.14 y 13.41 zw -51.63 scale 0.777}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -31194,7 +31271,9 @@
 	{Entity "palm_001" 0x45f9
 		{Position -5120.65 -6126.38 12}
 		{xform zl 35.93}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -31272,7 +31351,9 @@
 	{Entity "palm_002" 0x4604
 		{Position -5247.71 -5396.81 6.72}
 		{xform zl -154.96 scale 1.09}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -31308,7 +31389,9 @@
 	{Entity "palm_002" 0x4609
 		{Position -5073.75 -5481.8 15.03}
 		{xform zl -15.81}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -31344,7 +31427,9 @@
 	{Entity "palm_002" 0x460e
 		{Position -5279.12 -5012.39}
 		{xform zl -71.38}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -31359,7 +31444,9 @@
 	{Entity "palm_004" 0x4610
 		{Position -5265.79 -5185.74}
 		{xform zl 16.31 scale 0.89}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -31426,7 +31513,9 @@
 		{Position -5386.02 -4614.58}
 		{xform zl -65.78 y 3.79 zw -105.09}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -31478,7 +31567,9 @@
 	{Entity "palm_005" 0x4620
 		{Position -5302.29 -4462.52}
 		{xform zl 7.32 scale 1.073}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -31493,7 +31584,9 @@
 	{Entity "palm_002" 0x4622
 		{Position -5179.79 -3969.53}
 		{xform zl 3.84}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -31522,7 +31615,9 @@
 	{Entity "palm_001" 0x4626
 		{Position -5106.75 -3712.08 32.38}
 		{xform zl -96.43}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -31572,7 +31667,9 @@
 	{Entity "palm_003" 0x462d
 		{Position -5234.23 -3257.87 7.95}
 		{xform zl -152.85}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -31629,7 +31726,9 @@
 	{Entity "palm_001" 0x4635
 		{Position -5358.8 -2869.71}
 		{xform zl -148.12 scale 1.177}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -31693,7 +31792,9 @@
 	{Entity "palm_005" 0x463e
 		{Position -5120.79 -2721.93}
 		{xform zl -12.46}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -31701,7 +31802,9 @@
 	{Entity "palm_001" 0x463f
 		{Position -5067.62 -2329.31}
 		{xform zl -81.91}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -31737,7 +31840,9 @@
 	{Entity "palm_001" 0x4644
 		{Position -5447.27 -2246.25}
 		{xform zl -97 scale 1.2}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -31759,7 +31864,9 @@
 	{Entity "palm_004" 0x4647
 		{Position -5475.45 -2302.32}
 		{xform zl -11.02 scale 1.2}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -31993,7 +32100,9 @@
 	{Entity "palm_001" 0x867
 		{Position -5340.97 -81.02}
 		{xform zl -39.08}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -32176,7 +32285,9 @@
 	{Entity "palm_002" 0x881
 		{Position -4759.84 -240.87}
 		{xform zl -11.36 scale 0.857}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -32219,7 +32330,9 @@
 	{Entity "palm_003" 0x887
 		{Position -4442.96 -125.86}
 		{xform zl 49.83 scale 0.877}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -32242,7 +32355,9 @@
 		{Position -4697.16 -124.48}
 		{xform zl 73.33 y 1.13 zw 89.61}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -32318,7 +32433,9 @@
 		{Position -4618.47 195.15}
 		{xform zl -93.96 y 6.06 zw -109.15 scale 1.093}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -32358,7 +32475,9 @@
 	{Entity "palm_001" 0x899
 		{Position -4838.52 598.97}
 		{xform zl -35.64 scale 1.113}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -32415,7 +32534,9 @@
 	{Entity "palm_004" 0x8a1
 		{Position -5111.68 712.16}
 		{xform zl -12.15 scale 1.213}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -32444,7 +32565,9 @@
 	{Entity "palm_003" 0x8a5
 		{Position -5229.02 848.82}
 		{xform zl 60.53}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -32473,7 +32596,9 @@
 	{Entity "palm_002" 0x8a9
 		{Position -5167.83 1150.56}
 		{xform zl 52.12 scale 1.127}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -32696,7 +32821,9 @@
 	{Entity "palm_003" 0x8c8
 		{Position -5380.61 3031.72 7.88}
 		{xform zl -150.73 scale 0.957}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -32806,7 +32933,9 @@
 	{Entity "palm_003" 0x8d7
 		{Position -5086.52 3946.4}
 		{xform zl 20.72 scale 0.893}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -32849,7 +32978,9 @@
 	{Entity "palm_004" 0x8dd
 		{Position -5207.62 4108.46}
 		{xform zl -50.36 scale 1.207}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -32906,7 +33037,9 @@
 	{Entity "palm_002" 0x8e5
 		{Position -5249.09 4724.6}
 		{xform zl -141.19 scale 1.167}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -32914,7 +33047,9 @@
 	{Entity "palm_003" 0x8e6
 		{Position -5266.76 4729.01}
 		{xform zl -136.61 scale 0.787}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -32971,7 +33106,9 @@
 	{Entity "palm_001" 0x8ee
 		{Position -5069.75 4956.53}
 		{xform zl -92.87}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33007,7 +33144,9 @@
 	{Entity "palm_001" 0x8f3
 		{Position -5271.97 5497.94}
 		{xform zl 43.19 scale 1.117}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33076,7 +33215,9 @@
 		{Position -5293.45 6195.25}
 		{xform zl 71.39 y 1 zw -148.83 scale 0.79}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33171,7 +33312,9 @@
 		{Position -4547.95 6008.82}
 		{xform zl 139.09 y 3.47 zw -36.68 scale 1.137}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33223,7 +33366,9 @@
 	{Entity "palm_003" 0x4666
 		{Position -4165.54 5971.91}
 		{xform zl -81.72 scale 1.017}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33231,7 +33376,9 @@
 	{Entity "palm_001" 0x4667
 		{Position -4293.84 5911.88}
 		{xform zl -71.05 scale 0.9}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33253,7 +33400,9 @@
 	{Entity "palm_005" 0x466a
 		{Position -4561.99 5975.69}
 		{xform zl 42.64 scale 0.9}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33275,7 +33424,9 @@
 	{Entity "palm_002" 0x466d
 		{Position -3415.75 6035.3}
 		{xform zl -128.41}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33283,7 +33434,9 @@
 	{Entity "palm_004" 0x466e
 		{Position -3435.64 6023.72}
 		{xform zl -162.91 scale 0.607}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33345,7 +33498,9 @@
 	{Entity "palm_001" 0x4676
 		{Position -3240.73 5876.86}
 		{xform zl 153.57 scale 0.9}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33427,7 +33582,9 @@
 	{Entity "palm_002" 0x4681
 		{Position -2785.44 5912.99}
 		{xform zl -27.25}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33435,7 +33592,9 @@
 	{Entity "palm_004" 0x4682
 		{Position -2995.86 5989.77}
 		{xform zl -133.75 scale 0.65}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33498,7 +33657,9 @@
 		{Position -3483 891.68}
 		{xform zl -0.33 y 2.02 zw 126.78 scale 0.74}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33507,7 +33668,9 @@
 		{Position -3496.35 902.82}
 		{xform zl 53.42 y 5.41 zw 107.42}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33553,7 +33716,9 @@
 		{Position -3791.22 744.11}
 		{xform zl -178.65 y 0.98 zw 67.45 scale 0.847}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33561,7 +33726,9 @@
 	{Entity "palm_005" 0x4692
 		{Position -3993.05 482.83}
 		{xform zl -63.02 scale 0.734}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33569,7 +33736,9 @@
 	{Entity "palm_003" 0x4693
 		{Position -3980.54 473.11}
 		{xform zl -59.01 scale 1.054}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33699,7 +33868,9 @@
 		{Position -3532.43 493.07}
 		{xform zl -51.43 y 6.96 zw 157.26 scale 0.847}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33763,7 +33934,9 @@
 	{Entity "palm_001" 0x91a
 		{Position -3414.4 621.92}
 		{xform zl 38.98}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33806,7 +33979,9 @@
 	{Entity "palm_002" 0x920
 		{Position -3240.17 370.35}
 		{xform zl -59.27}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33836,7 +34011,9 @@
 		{Position -3582.03 35.46}
 		{xform zl 115.94 y 7.87 zw -93.86}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33844,7 +34021,9 @@
 	{Entity "palm_002" 0x925
 		{Position -3532.92 41.43}
 		{xform zl 57.31 scale 0.833}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33852,7 +34031,9 @@
 	{Entity "palm_004" 0x926
 		{Position -3224.98 198.42}
 		{xform zl 22.84 scale 0.96}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33911,7 +34092,9 @@
 	{Entity "palm_001" 0x92e
 		{Position -3149.24 15.83}
 		{xform zl 72.03}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -33982,7 +34165,9 @@
 	{Entity "palm_001" 0x938
 		{Position -3401.74 -227.85}
 		{xform zl 21.05}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -34127,7 +34312,9 @@
 	{Entity "palm_001" 0x94c
 		{Position -3935.47 -609.97}
 		{xform zl -93.97}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -34191,7 +34378,9 @@
 	{Entity "palm_003" 0x955
 		{Position -3832.73 -361.07}
 		{xform zl 54.83 scale 0.98}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -34267,7 +34456,9 @@
 	{Entity "palm_003" 0x95f
 		{Position -3851.71 -347.73}
 		{xform zl 165.42 scale 1.137}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -34317,7 +34508,9 @@
 	{Entity "palm_001" 0x469f
 		{Position -3184.45 -978.09}
 		{xform zl 83.87 scale 1.07}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -34412,7 +34605,9 @@
 	{Entity "palm_004" 0x46ad
 		{Position -3571.74 -6108.44}
 		{xform zl 51.9 y 12.66 zw 171.17 scale 0.62}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -34472,7 +34667,9 @@
 	{Entity "palm_004" 0x46b5
 		{Position -3356.1 -5987.08}
 		{xform zl 25.35 scale 0.847}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -34487,7 +34684,9 @@
 	{Entity "palm_003" 0x46b7
 		{Position -3547 -5784.36}
 		{xform zl 77.5 scale 1.137}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -34577,7 +34776,9 @@
 		{Position -3208.94 -5958.79}
 		{xform zl 51.09 y 7.94 zw 4.22}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -34600,7 +34801,9 @@
 	{Entity "palm_002" 0x46c6
 		{Position -1562.16 -6013.27}
 		{xform zl 31.86}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -34667,7 +34870,9 @@
 	{Entity "palm_003" 0x46cf
 		{Position -1103.84 -6135.02}
 		{xform zl -51.26 scale 1.137}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -34696,7 +34901,9 @@
 		{Position -1684.86 -5768.78}
 		{xform zl -172.7 y 8.62 zw 156.54}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -37098,7 +37305,9 @@
 		{Position -625.08 6196.5}
 		{xform zl -146.53 y 12.75 zw -79.04 scale 1.137}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -37178,7 +37387,9 @@
 	{Entity "palm_004" 0x46eb
 		{Position -613.35 6240.62}
 		{xform zl -69.13 scale 0.984}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -37186,7 +37397,9 @@
 	{Entity "palm_003" 0x46ec
 		{Position -916.59 6035.87}
 		{xform zl -163.1 scale 0.714}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -37325,7 +37538,9 @@
 		{Position -2971.42 -2330.04}
 		{xform zl -124.01 y 14.34 zw -76.87 scale 1.07}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -37376,7 +37591,9 @@
 		{Position -1677.65 -2704.53}
 		{xform zl -13.12 y 9.7 zw -104.84 scale 1.067}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -37394,7 +37611,9 @@
 		{Position -1906.61 -2029.2}
 		{xform zl 153.15 y 7.1 zw 19 scale 1.07}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -37495,7 +37714,9 @@
 		{Position 1642.85 -2734.75}
 		{xform zl -167.41 y 3.1 zw 72.84 scale 1.217}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -37526,7 +37747,9 @@
 	{Entity "palm_001" 0x2325
 		{Position 2249.02 -2724.55}
 		{xform zl -24.45 scale 1.347}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -37757,7 +37980,9 @@
 		{Position -420.35 2305.31}
 		{xform zl 31.93 y 15.16 zw -36.12 scale 1.07}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -37765,7 +37990,9 @@
 	{Entity "palm_003" 0x602f
 		{Position -427.29 2311.77}
 		{xform zl 135.4 scale 0.94}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -37811,7 +38038,9 @@
 		{Position 1487.38 2741.54}
 		{xform zl -131.62 y 6.34 zw 18.39 scale 0.94}
 		{Constrain surface}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -37884,7 +38113,9 @@
 	}
 	{Entity "palm_003" 0x112d
 		{Position 2889.06 1583.56}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -37898,7 +38129,9 @@
 	}
 	{Entity "palm_001" 0x1132
 		{Position 3218.46 -929.56}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -37918,7 +38151,9 @@
 	}
 	{Entity "palm_001" 0x1135
 		{Position 2860.47 2353.78}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -40480,7 +40715,9 @@
 	}
 	{Entity "shelter_006" 0x3003
 		{Position -2850.13 2500.29}
-		{TexMod "2_comby"}
+		{TexMod
+			{material "wood_barrel" "2_comby"}
+		}
 	}
 	{Entity "shelter_009" 0x3004
 		{Position -2864.17 2478.06}
@@ -41245,7 +41482,9 @@
 	}
 	{Entity "camouflage_vehicle_01a" 0x170
 		{Position -591.46 1399.13}
-		{TexMod "sand"}
+		{TexMod
+			{material "tent" "sand"}
+		}
 	}
 	{Entity "wooden_box_06" 0x61f5
 		{Position -1371.57 2226.4}
@@ -43740,7 +43979,9 @@
 	{Entity "palm_002" 0x47b5
 		{Position -5274.09 6175.18 0.34}
 		{xform zl -149.2 scale 1.157}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -54648,7 +54889,9 @@
 	}
 	{Entity "palm_001" 0xc56
 		{Position 3948.98 -584.92}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -54656,7 +54899,9 @@
 	{Entity "palm_001" 0xc57
 		{Position 4182.92 -297.64}
 		{xform zl -54.01 scale 0.707}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -54664,7 +54909,9 @@
 	{Entity "palm_001" 0xc58
 		{Position 5132.66 324.76}
 		{xform zl -101.19 scale 1.053}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -55215,7 +55462,9 @@
 	{Entity "palm_001" 0x4968
 		{Position 4329.18 1030.72}
 		{xform zl -92.42}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -57178,7 +57427,9 @@
 	{Entity "palm_001" 0xe24
 		{Position 4308.2 2802.09}
 		{xform zl -43.93 scale 1.007}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -57868,7 +58119,9 @@
 	{Entity "palm_001" 0x637d
 		{Position 5732.38 1397.68}
 		{xform zl -63.75}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -59731,7 +59984,9 @@
 	{Entity "palm_001" 0xca3
 		{Position 5574.87 1961.46}
 		{xform zl 43.67 scale 1.007}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -60059,7 +60314,9 @@
 	{Entity "palm_001" 0xccf
 		{Position 4601.89 1734.2}
 		{xform zl -43.93 scale 1.117}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}
@@ -60074,7 +60331,9 @@
 	{Entity "palm_001" 0xcd1
 		{Position 5282.65 2651.15}
 		{xform zl 68.54 scale 0.994}
-		{TexMod "a"}
+		{TexMod
+			{material "leafs" "a"}
+		}
 		{Volume "crown"
 			{able {visible 0}}
 		}

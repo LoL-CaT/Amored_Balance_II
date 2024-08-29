@@ -2,8 +2,10 @@
 {name "Amored Balance II"}
 {default_disabled}
 {activate_implicit}
-{author "author "LoL_CaT"}
+{always_activate_scene}
+{always_activate_global}
+{author "LoL_CaT"}
 {dependency "02f8e8f9-91d9-45e0-8ee6-dc56adae4763"} ; main package
 {dependency "dc5018c9-9d31-45e3-8bb6-8c8273294e84"} ; Ui2
-{legacy_id "f6ddf895-ff64-4da8-86d7-f00e4b8869cc}
+{legacy_id "f6ddf895-ff64-4da8-86d7-f00e4b8869cc"}
 {hash "0xb44b32ae"}
